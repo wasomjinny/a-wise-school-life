@@ -1,0 +1,17 @@
+<script>
+
+window.onload = function() {
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        console.log(`position.coords.latitude : ${position.coords.latitude}`)
+        console.log(`position.coords.longitude : ${position.coords.longitude}`)
+      });
+    } else { 
+      console.log('navigator.geolocation is null');
+    }
+  }
+
+  setInterval(() => getLocation(), 5000);
+}
+</script>
