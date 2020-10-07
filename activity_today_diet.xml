@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ACF35B">
+
+            <LinearLayout
+                android:id="@+id/ll_top_info_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_oval_effect"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/bt_back"
+                        android:layout_width="22dp"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="@dimen/space_15dp"
+                        android:background="@drawable/back_white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp">
+
+                    <TextView
+                        android:id="@+id/tv_top_info_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@string/font_family_regular"
+                        android:lineSpacingExtra="5dp"
+                        android:text="오늘의 급식"
+                        android:textColor="@color/color_white"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@color/color_white"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:id="@+id/ll_bus_menu1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/btn_image_02"
+                        android:gravity="center_horizontal">
+                        <TextView
+                            android:id="@+id/tv_bus_menu1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/space_10dp"
+                            android:fontFamily="@string/font_family_medium"
+                            android:gravity="center"
+                            android:text="점심"
+                            android:textColor="@color/color_black"
+                            android:textSize="15sp"/>
+                        <ImageView
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/drop_down_s" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="메뉴"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--메뉴-->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="@dimen/space_1dp"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="115dp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="열량"
+                                android:textColor="@color/color_333333"
+                                android:textSize="12sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout> <!--열량-->
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginTop="@dimen/space_1dp"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/color_333333"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:text="알레르기 정보"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout> <!--알레르기 정보-->
+                </TableRow> <!--타이틀-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="흰쌀밥"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="300"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="1.5.6.9.13."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--1교시-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tx_menu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="돈까스"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="230"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="13."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--2교시-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_31"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="양송이스프"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_32"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="105"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_33"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="9.13."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--1교시-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_41"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="스파게티"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_42"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="355"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_43"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="13."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--1교시-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_51"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="배추김치"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_52"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="10"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_53"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="1.2.5.6.10.13.15.16.18."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--1교시-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_61"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="오렌지주스"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_62"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="42"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_63"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="1.2.5.6.10.12.13.16."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--1교시-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/table_row_bg">
+
+                    <LinearLayout
+                        android:layout_width="10dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_71"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="총열량"
+                            android:textColor="@color/color_333333"
+                            android:textSize="12sp" />
+                    </LinearLayout> <!--월요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_72"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="1042"/>
+                    </LinearLayout> <!--화요일-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/space_1dp"
+                        android:layout_marginTop="@dimen/space_1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/table_cell_bg"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_time_ban_73"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/color_333333"
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="1.5.6.12.13.15."/>
+                    </LinearLayout> <!--수요일-->
+                    <!--목요일-->
+                    <!--금요일-->
+                </TableRow> <!--1교시-->
+
+
+            </TableLayout>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1dp"
+            android:layout_weight="0"
+            android:background="@color/color_dddddd" />
+
+    </LinearLayout>
+
+</FrameLayout>
