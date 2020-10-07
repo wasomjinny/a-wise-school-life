@@ -9,8 +9,8 @@ require_once('common/school_config.php');
 <!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.0 Transitional//EN">
 <HTML>
 <HEAD>
-<TITLE>슬기로운 학교생활 로그인
-</TITLE>
+<title>슬기로운 학교생활 로그인
+</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link type="text/css" rel="stylesheet" href="common/style.css">
 <script language="javascript" src="common/javascript.jsc"></script>
@@ -20,8 +20,8 @@ require_once('common/school_config.php');
 if(top.location != self.location) top.location = self.location;
 
 function do_login(f) {
-	if(f.user_id.value == "") { f.user_id.focus(); return false; }
-	if(f.user_pw.value == "") { f.user_pw.focus(); return false; }
+	if(f.user_id.value == "") { f.user_id.focus(); return; }
+	if(f.user_pw.value == "") { f.user_pw.focus(); return; }
 
 	var user_id = f.user_id.value.substr(0,9);
 	// if (user_id!='interpark')

@@ -29,7 +29,6 @@ $user_pw = trim($_POST['password']);
     $_SESSION['power'] = $row['power'];     //세션정보를 저장
 
     header('Location: /school/mainpage.php'); //어디로 가는것
-    exit; //끝내라는 뜻
 
   }
 
