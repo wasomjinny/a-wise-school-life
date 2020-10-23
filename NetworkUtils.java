@@ -50,8 +50,8 @@ public class NetworkUtils {
 	public static boolean is3gConnected(Context context) {
 		ConnectivityManager connectivity = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 		// 3G 를 사용하는지 확인힌다. 
-		boolean is3g = connectivity.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).isConnectedOrConnecting();
-		return is3g;
+		 
+		return connectivity.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).isConnectedOrConnecting();
 	}
 
 	/**
@@ -62,8 +62,8 @@ public class NetworkUtils {
 	public static boolean isWifiConnected(Context context) {
 		ConnectivityManager connectivity = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 		// WIFI 를 사용하는지 확인힌다. 
-		boolean isWifi = connectivity.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnectedOrConnecting();
-		return isWifi;
+		
+		return connectivity.getNetworkInfo(ConnectivityManager.TYPE_WIFI).isConnectedOrConnecting();
 	}
 
 	/**
@@ -100,11 +100,15 @@ public class NetworkUtils {
 					if (netWifi.isConnected())
 						isCurrentNetworkState = NETWORK_STATE_WIFI;
 					break;
+				default:
+					isCurrentNetworkState = NETWORK_STATE_NONE;
+					break;
 			}
 			return true;
 		}
 	}
 
+	
 	/**
 	 * @breif wifi, 데이터 네트워크 사용할수 있는지 체크
 	 * @param context
