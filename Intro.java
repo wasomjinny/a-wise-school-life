@@ -22,8 +22,8 @@ public class Intro extends BaseActivity implements ViewPager.OnPageChangeListene
 
     private ViewPager            mViewPager;  //화면에 4개의 페이지를 스크롤 할 수 있도록 하는데 사용
     //private View                 mView_Progressbar;
-
-    private ImageView[] mIv_Dot = new ImageView[4];
+    private constant int numberOfItem = 4;
+    private ImageView[] mIv_Dot = new ImageView[numberOfItem];
 
     private ArrayList<LoginItem> mArrLogin;
     private ArrayList<IntroItem> mArrImg;
@@ -31,13 +31,14 @@ public class Intro extends BaseActivity implements ViewPager.OnPageChangeListene
 
     private RequestManager      mRequestManager;
 
-    private String[] strId = new String[4];
+    private String[] strId = new String[numberOfItem];
 
     private int[] nId_Iv = {R.id.iv_intro_dot_1, R.id.iv_intro_dot_2, R.id.iv_intro_dot_3, R.id.iv_intro_dot_4};
     private int[] nId_Img = {R.drawable.step03_01, R.drawable.step03_02, R.drawable.step03_03, R.drawable.step02_04};
     private int[] nId_Img2 = {R.drawable.step03_01, R.drawable.step03_02, R.drawable.step03_03, R.drawable.step02_04};
     private int[] nId_Img3 = {R.drawable.step03_01, R.drawable.step03_02, R.drawable.step03_03, R.drawable.step02_04};
     private int[] nId_Img4 = {R.drawable.step03_01, R.drawable.step03_02, R.drawable.step03_03, R.drawable.step02_04};
+   
 
 
 
@@ -47,7 +48,7 @@ public class Intro extends BaseActivity implements ViewPager.OnPageChangeListene
 
         setContentView(R.layout.activity_intro);
 
-        if(config.getActivities() == null){  //현재 열려있는 Activity가 비어있다면
+        if (config.getActivities() == null) {  //현재 열려있는 Activity가 비어있다면
             config.setActivities();  //Activity ArrayList를 생성하고
             config.getActivities().add(Intro.this);  //intro 액티비티를 ArrayList에 추가
         }else {
