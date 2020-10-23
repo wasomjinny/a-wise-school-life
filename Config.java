@@ -137,8 +137,7 @@ public class Config {
 
 	public void setLang(Activity activity, String lang) {
 
-		if (strLang != null
-				|| !strLang.equals(lang)) {
+		if (strLang != null && !strLang.equals(lang)) {
 
 			if (lang.equals(iConfig.LANG_NAME_KOREA2)) {
 				lang = iConfig.LANG_NAME_KOREA;
@@ -159,30 +158,39 @@ public class Config {
 		switch (lang) {
 			case iConfig.LANG_NAME_ENGLISH: {
 				locale = Locale.ENGLISH;
+				break;
+				
 			}
-			break;
+			
 
 			case iConfig.LANG_NAME_JAPAN:
 			case iConfig.LANG_NAME_JAPAN2: {
 				locale = Locale.JAPANESE;
+				break;
 			}
-			break;
+			
 
 			case iConfig.LANG_NAME_KOREA:
 			case iConfig.LANG_NAME_KOREA2: {
 				locale = Locale.KOREA;
+				break;
+			
 			}
-			break;
+			
 
 			case iConfig.LANG_NAME_CN: {
 				locale = Locale.CHINA;
+				break;
 			}
-			break;
+			
 
 			case iConfig.LANG_NAME_TW: {
 				locale = Locale.TAIWAN;
+				break;
 			}
-			break;
+			default:
+				locale = Locale.KOREA;
+				break
 		}
 
 		Resources activityRes = activity.getBaseContext().getResources();
