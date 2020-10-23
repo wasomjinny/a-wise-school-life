@@ -1,0 +1,30 @@
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0f38fda8f99495961b63734f6940cc8b"></script>
+<script>
+
+// https://developers.kakao.com/console/app/488806
+
+window.onload = function() {
+  function getLocation(callbacFunc) {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(callbacFunc);
+    } else { 
+      console.log('navigator.geolocation is null');
+    }
+  }
+
+  let currentGeolocation = getLocation((position) => {
+    console.log(`position.coords.latitude : ${position.coords.latitude}`)
+    console.log(`position.coords.longitude : ${position.coords.longitude}`)
+
+    let container = document.getElementById('map');
+		let options = {
+			center: new kakao.maps.LatLng(position.coords.latitude, position.coords.longitude),
+			level: 3
+		};
+		let map = new kakao.maps.Map(container, options);
+  });
+
+}
+</script>
+
+<div id="map" style="width:500px;height:400px;"></div>
