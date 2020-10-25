@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="#FF7200">
+            android:background="#FFEB3B">
 
             <LinearLayout
                 android:id="@+id/ll_top_info_back"
