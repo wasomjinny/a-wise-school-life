@@ -1,0 +1,59 @@
+<script type="text/javascript">
+//<![CDATA[//location.href//]]>
+</script>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>슬기로운 학교생활 로그인
+</TITLE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="common/style.css">
+<script language="javascript" src="common/javascript.jsc"></script>
+
+<script language="JavaScript">
+<!--
+if(top.location != self.location) top.location = self.location;
+//id와 password가 비어있는지 검사
+function do_login(f) {
+	if(f.member_id.value == "") { f.member_id.focus(); return false; }
+	if(f.password.value == "") { f.password.focus(); return false; }
+
+}
+//-->
+</script>
+</HEAD>
+
+<BODY style="border:0">
+<center>
+<br><br><br><br><br><br>
+
+<table border="0" cellpadding="2" cellspacing="5" width="500" bgcolor="#BBBBBB">
+<tr bgcolor="#ffffff" align="center">
+    <td>
+    <br><br><br><h1>슬기로운 학교생활 관리자 로그인</h1>
+    <br><br><br>
+    <form name="form1" action="login_ok.php" method="post" onsubmit="return do_login(this)">
+    <table border="0" cellpadding="3" cellspacing="0" align="center">
+
+    <tr>
+        <td align="right">Admin ID</td>
+        <td><input type="text" name="member_id" size="24" class="textbox" onfocus="style_toggle(this,'textbox_red')" onblur="style_toggle(this,'textbox')"></td>
+    </tr>
+    <tr>
+        <td align="right">Admin Password</td>
+        <td><input type="password" name="password" size="24" class="textbox" onfocus="style_toggle(this,'textbox_red')" onblur="style_toggle(this,'textbox')"></td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" name="btn_submit" value="LOGIN" onmouseover="style_toggle(this,'button_orange')" onmouseout="style_toggle(this,'button_purple')" class="button_purple"></td>
+    </tr>
+    </table>
+    <br><br><br><br>
+    </form>
+    </td>
+</tr>
+</table>
+</center>
+</body>
+</HTML>
