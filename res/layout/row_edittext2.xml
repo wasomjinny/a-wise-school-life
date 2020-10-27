@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        android:layout_marginTop="@dimen/space_20dp"
+        android:text="현재 비밀번호"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_333333" />
+
+    <com.smart.school.app.widget.CustomEditText2
+        android:id="@+id/cet_edittext2_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        app:hint="현재 비밀번호를 입력하세요" />
+
+    <!--<EditText
+        android:id="@+id/et_cdialog_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:textCursorDrawable="@drawable/custom_cursor"/>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        android:layout_marginTop="@dimen/space_15dp"
+        android:text="새 비밀번호"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_333333" />
+
+    <!--<EditText
+        android:id="@+id/et_cdialog_new_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        android:textCursorDrawable="@drawable/custom_cursor"/>-->
+
+    <com.smart.school.app.widget.CustomEditText2
+        android:id="@+id/cet_edittext2_new_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        app:hint="새 비밀번호를 입력하세요." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        android:layout_marginTop="@dimen/space_15dp"
+        android:text="새 비밀번호 확인"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_333333" />
+
+    <!--<EditText
+        android:id="@+id/et_cdialog_new_pw_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:textCursorDrawable="@drawable/custom_cursor"/>-->
+
+    <com.smart.school.app.widget.CustomEditText2
+        android:id="@+id/cet_edittext2_new_pw_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_10dp"
+        android:layout_marginRight="@dimen/space_10dp"
+        app:hint="새 비밀번호를 한번 더 입력하세요" />
+</LinearLayout>

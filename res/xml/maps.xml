@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps>
+
+    <map name="jp_1f" >
+        <area
+            id="@+id/area142"
+            name="AEON PET PECOS"
+            coords="91,161,298,161,298,275,314,275,313,321,66,321,66,224,91,224"
+            shape="poly"
+            tag="101988" />
+        <area
+            id="@+id/area141"
+            name="VILLAGE VANGUARD"
+            coords="65,321,313,321,313,379,272,379,272,418,66,418"
+            shape="poly"
+            tag="102162" />
+        <area
+            id="@+id/area111"
+            name="NITORI"
+            coords="66,418,272,418,272,447,313,447,313,844,66,844"
+            shape="poly"
+            tag="102127" />
+        <area
+            id="@+id/area104"
+            name="Ciruq de Galliver"
+            coords="66,844,166,844,166,1092,66,1092"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area105"
+            name="Hello Kitty&apos;s Kawaii Paradise"
+            coords="166,845,187,845,187,878,312,878,312,1062,317,1064,317,1070,261,1091,166,1091"
+            shape="poly"
+            tag="101997" />
+        <area
+            id="@+id/area103"
+            name="Pet Paradise"
+            coords="186,846,313,846,313,879,187,879"
+            shape="poly"
+            tag="102145" />
+        <area
+            id="@+id/area102"
+            name="STARTBUCKS COFFEE"
+            coords="66,1092,260,1092,215,1140,66,1140"
+            shape="poly"
+            tag="102035" />
+        <area
+            id="@+id/area101"
+            name="FamilyMart"
+            coords="66,1140,214,1140,201,1192,66,1192"
+            shape="poly"
+            tag="102024" />
+        <area
+            id="@+id/area179"
+            name="JEWEL CAKE"
+            coords="353,493,376,493,376,509,353,509"
+            shape="poly"
+            tag="101993" />
+        <area
+            id="@+id/area175"
+            name="Zoff"
+            coords="351,539,427,539,427,612,352,612"
+            shape="poly"
+            tag="101995" />
+        <area
+            id="@+id/area176"
+            name="Gela Fru solo uno"
+            coords="427,539,495,539,495,612,427,612"
+            shape="poly"
+            tag="102133" />
+        <area
+            id="@+id/area177"
+            name="MEN-YA-KUKAI"
+            coords="495,539,577,539,577,613,495,613"
+            shape="poly"
+            tag="102065" />
+        <area
+            id="@+id/area173"
+            name="Park Avenue Clea"
+            coords="351,626,495,626,495,689,427,689,427,657,351,657"
+            shape="poly"
+            tag="102131" />
+        <area
+            id="@+id/area174"
+            name="MAGUROTONYA MIURAMISAKIKO"
+            coords="495,626,575,626,575,689,495,689"
+            shape="poly"
+            tag="102130" />
+        <area
+            id="@+id/area171"
+            name="LAOX"
+            coords="398,754,576,754,576,872,351,872,351,809,397,809,397,754"
+            shape="poly"
+            tag="102141" />
+        <area
+            id="@+id/area154"
+            name="cody coby"
+            coords="351,872,410,872,410,898,392,916,351,916"
+            shape="poly"
+            tag="102160" />
+        <area
+            id="@+id/area155"
+            name="BUMP"
+            coords="410,872,473,872,473,898,410,898"
+            shape="poly"
+            tag="102152" />
+        <area
+            id="@+id/area153"
+            name="crocs"
+            coords="351,916,392,916,392,973,351,973"
+            shape="poly"
+            tag="102161" />
+        <area
+            id="@+id/area163"
+            name="yuga"
+            coords="411,916,434,916,434,951,411,951"
+            shape="poly"
+            tag="101990" />
+        <area
+            id="@+id/area162"
+            name="Donguri Republic The Bear&apos;s School Jackle&apos;s Room"
+            coords="434,916,473,916,473,956,453,979,453,1023,411,1023,411,985,433,985"
+            shape="poly"
+            tag="102164" />
+        <area
+            id="@+id/area152"
+            name="BANANA CHIPS"
+            coords="351,993,358,987,393,987,393,1023,351,1023"
+            shape="poly"
+            tag="102157" />
+        <area
+            id="@+id/area151"
+            name="DENIM DUNGAREE"
+            coords="351,1023,393,1023,392,1068,351,1056"
+            shape="poly"
+            tag="102158" />
+        <area
+            id="@+id/area165"
+            name="X-girl Stages"
+            coords="411,1023,433,1023,433,1087,411,1068"
+            shape="poly"
+            tag="101989" />
+        <!--
+             <area
+            id="@+id/area161"
+            name="RONI"
+            coords="472,1036,521,1036,521,1068,471,1068"
+            shape="poly"
+            tag="102135" />
+        -->
+        <area
+            id="@+id/area160"
+            name="CHUBBYANG"
+            coords="443,1110,467,1081,521,1081,521,1110"
+            shape="poly"
+            tag="102159" />
+        <area
+            id="@+id/area159"
+            name="Venus DANCE STUDIO"
+            coords="521,979,575,979,575,1110,522,1110"
+            shape="poly"
+            tag="106544" />
+        <area
+            id="@+id/area143"
+            name="LOTTERIA"
+            coords="434,1119,443,1110,576,1110,576,1156,454,1156,433,1119"
+            shape="poly"
+            tag="106543" />
+        <area
+            id="@+id/area178"
+            name="EDOYA"
+            coords="352,455,378,494"
+            shape="poly"
+            tag="106533" />
+        <area
+            id="@+id/area156"
+            name="RONI"
+            coords="471,970,471,1009,520,1009,520,970"
+            shape="poly"
+            tag="102135" />
+        <area
+            id="@+id/area158"
+            name="EARTHMAGIC"
+            coords="472,980,522,1023"
+            shape="poly"
+            tag="102163" />
+    </map>
+    <map name="jp_2f" >
+        <area
+            id="@+id/area299"
+            name="Hale Moana"
+            coords="62,146,152,146,172,198,154,216,63,216"
+            shape="poly"
+            tag="102082" />
+        <area
+            id="@+id/area298"
+            name="SEIRYUMON"
+            coords="63,216,153,216,172,201,205,225,205,256,63,256"
+            shape="poly"
+            tag="102080" />
+        <area
+            id="@+id/area297"
+            name="a le Loic"
+            coords="133,257,133,296,206,296,206,255"
+            shape="poly"
+            tag="102077" />
+        <area
+            id="@+id/area286"
+            name="Kiddy Land"
+            coords="64,256,134,256,134,296,206,296,206,324,63,324"
+            shape="poly"
+            tag="102023" />
+        <area
+            id="@+id/area285"
+            name="THE EMPORIUM"
+            coords="108,324,205,324,205,358,108,358"
+            shape="poly"
+            tag="102030" />
+        <area
+            id="@+id/area284"
+            name="INDEX"
+            coords="108,359,205,359,205,387,186,413,206,446,206,479,107,479"
+            shape="poly"
+            tag="102011" />
+        <area
+            id="@+id/area283"
+            name="Shimokita Point Market"
+            coords="107,478,206,478,206,511,107,511"
+            shape="poly"
+            tag="102028" />
+        <area
+            id="@+id/area282"
+            name="vanitybeauty"
+            coords="107,511,206,511,206,543,108,543"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area281"
+            name="Billabong"
+            coords="108,543,206,543,206,575,107,575"
+            shape="poly"
+            tag="102052" />
+        <area
+            id="@+id/area280"
+            name="Cobara-Hetta"
+            coords="107,575,206,575,206,592,185,617,185,638,108,638"
+            shape="poly"
+            tag="102906" />
+        <area
+            id="@+id/area208"
+            name="YEVS"
+            coords="92,693,190,693,166,750,83,750,83,712,92,712"
+            shape="poly"
+            tag="102010" />
+        <area
+            id="@+id/area204"
+            name="POLO RALPH LAUREN"
+            coords="63,884,153,884,153,950,63,950"
+            shape="poly"
+            tag="106562" />
+        <area
+            id="@+id/area205"
+            name="ete"
+            coords="83,845,153,845,153,882,83,882"
+            shape="poly"
+            tag="102016" />
+        <area
+            id="@+id/area206"
+            name="Wailea"
+            coords="83,805,152,805,152,844,83,844"
+            shape="poly"
+            tag="102075" />
+        <area
+            id="@+id/area203"
+            name=" DIESEL"
+            coords="63,950,153,950,153,994,164,1004,153,1013,62,1013"
+            shape="poly"
+            tag="102042" />
+        <area
+            id="@+id/area202"
+            name="ZARA"
+            coords="63,1074,117,1074,117,1032,146,1032,173,1010,199,1031,256,1031,255,1092,221,1120,199,1171,63,1171"
+            shape="poly"
+            tag="102026" />
+        <area
+            id="@+id/area241"
+            name="earth music &amp;ecology"
+            coords="346,1032,390,1032,391,1083,348,1073,342,1073,342,1065,345,1065"
+            shape="poly"
+            tag="102004" />
+        <area
+            id="@+id/area243"
+            name="Lion Heart"
+            coords="406,1091,441,1068,456,1088,428,1108"
+            shape="poly"
+            tag="102066" />
+        <area
+            id="@+id/area244"
+            name="Accessories Blossom"
+            coords="428,1108,456,1088,465,1094,464,1143,452,1143,428,1107"
+            shape="poly"
+            tag="102008" />
+        <area
+            id="@+id/area245"
+            name="AQUA SILVER"
+            coords="465,1094,486,1100,486,1143,464,1143"
+            shape="poly"
+            tag="102007" />
+        <!-- <area
+            id="@+id/area246"
+            name="SPNY by Sarah Pinkman New York"
+            coords="486,1100,507,1100,507,1143,486,1143"
+            shape="poly"
+            tag="106534" /> -->
+       <!--  <area
+            id="@+id/area247"
+            name="Sensitive"
+            coords="507,1100,528,1098,528,1143,507,1143"
+            shape="poly"
+            tag="102038" /> -->
+      <!--   <area
+            id="@+id/area248"
+            name="SWC"
+            coords="528,1098,545,1098,553,1143,528,1143"
+            shape="poly"
+            tag="102015" /> -->
+        <area
+            id="@+id/area249"
+            name="Onitsuka Tiger"
+            coords="466,1037,457,1051,457,1064,467,1077,479,1083,495,1086,505,1084,516,1078,519,1075"
+            shape="poly"
+            tag="102019"
+            title="" />
+        <area
+            id="@+id/area250"
+            name="a.c.mix"
+            coords="466,1037,475,1031,484,1028,494,1027,504,1028,510,1030,519,1036,524,1043,527,1050,527,1059,526,1068,523,1072,519,1075"
+            shape="poly"
+            tag="102012" />
+        <area
+            id="@+id/area251"
+            name="TOMMY"
+            coords="499,1012,574,1012,574,1080,544,1080,546,1051,544,1044,540,1037,537,1031,529,1025,520,1019,511,1015"
+            shape="poly"
+            tag="102045" />
+        <area
+            id="@+id/area252"
+            name="BURBERRY BLUE LABEL"
+            coords="453,958,522,958,522,933,574,933,574,1012,466,1012,452,1003"
+            shape="poly"
+            tag="102050" />
+        <area
+            id="@+id/area253"
+            name="move"
+            coords="453,933,522,933,522,957,453,957"
+            shape="poly"
+            tag="102062" />
+        <area
+            id="@+id/area254"
+            name="Douxmiere bijou SOPHIA"
+            coords="453,888,503,888,503,922,452,922,452,888"
+            shape="poly"
+            tag="102047" />
+        <area
+            id="@+id/area256"
+            name="LEGO clickbrick"
+            coords="503,888,452,888,452,850,526,850,526,819,574,819,574,897,527,897,527,879,503,879"
+            shape="poly"
+            tag="102070" />
+        <area
+            id="@+id/area257"
+            name="KEY WORD"
+            coords="526,819,526,789,574,789,574,819"
+            shape="poly"
+            tag="102022" />
+        <area
+            id="@+id/area258"
+            name="M"
+            coords="526,789,574,789,574,751,503,751,526,771"
+            shape="poly"
+            tag="103095" />
+        <area
+            id="@+id/area259"
+            name="Strange Love"
+            coords="468,706,500,706,500,694,511,694,511,710,574,710,574,751,502,751,468,722"
+            shape="poly"
+            tag="102033" />
+        <area
+            id="@+id/area264"
+            name="Steelgenic"
+            coords="406,724,441,696,441,706,456,706,456,726,468,737,432,737,427,743"
+            shape="poly"
+            tag="102031" />
+        <area
+            id="@+id/area263"
+            name="BLESS"
+            coords="427,742,432,737,468,737,492,757,445,757"
+            shape="poly"
+            tag="102056" />
+        <area
+            id="@+id/area262"
+            name="Jelly Beans"
+            coords="445,757,492,757,514,775,513,790,452,790,452,764"
+            shape="poly"
+            tag="102029" />
+        <area
+            id="@+id/area261"
+            name="Smith"
+            coords="452,790,513,790,513,819,453,819"
+            shape="poly"
+            tag="102037" />
+        <area
+            id="@+id/area260"
+            name="bread n butter"
+            coords="453,819,513,819,513,839,453,839"
+            shape="poly"
+            tag="102057" />
+        <area
+            id="@+id/area233"
+            name="blanc et noir for couples by e.m."
+            coords="344,975,409,975,409,988,402,996,344,996"
+            shape="poly"
+            tag="102055" />
+        <area
+            id="@+id/area232"
+            name="LA MAISON DU MIEL NAMIKI"
+            coords="380,952,410,952,410,975,380,975"
+            shape="poly"
+            tag="102064" />
+        <area
+            id="@+id/area231"
+            name="Folli Follie"
+            coords="371,951,371,917,410,917,410,952"
+            shape="poly"
+            tag="102053" />
+        <area
+            id="@+id/area230"
+            name="4°C"
+            coords="339,885,410,885,410,917,338,917,338,885"
+            shape="poly"
+            tag="102063" />
+        <area
+            id="@+id/area229"
+            name="sprout haruta factory"
+            coords="339,850,409,850,409,885,339,885"
+            shape="poly"
+            tag="102034" />
+        <area
+            id="@+id/area228"
+            name="Michal Negrin"
+            coords="382,796,410,796,410,827,382,827"
+            shape="poly"
+            tag="102060" />
+        <area
+            id="@+id/area226"
+            name="EIGHTY SEVENS"
+            coords="306,807,349,772,349,839,339,839,339,827,307,827"
+            shape="poly"
+            tag="102013" />
+        <area
+            id="@+id/area227"
+            name="every Body"
+            coords="349,772,375,750,409,779,409,796,349,796"
+            shape="poly"
+            tag="102017" />
+        <area
+            id="@+id/area211"
+            name="VENCE EXCHANGE"
+            coords="197,955,281,955,281,996,217,996,197,980"
+            shape="poly"
+            tag="102076" />
+        <area
+            id="@+id/area212"
+            name="PRIMPY POINT"
+            coords="196,933,281,933,281,954,196,954"
+            shape="poly"
+            tag="102054" />
+        <area
+            id="@+id/area234"
+            name="STARBUCKS COFFEE"
+            coords="299,843,322,843,322,927,298,927"
+            shape="poly"
+            tag="102035" />
+        <area
+            id="@+id/area213"
+            name="POLICE/Lunetterie Sunglass"
+            coords="196,885,241,885,241,922,196,922"
+            shape="poly"
+            tag="102059" />
+        <area
+            id="@+id/area214"
+            name="ROYAL ORDER"
+            coords="196,885,196,847,241,847,241,885"
+            shape="poly"
+            tag="102073" />
+        <area
+            id="@+id/area221"
+            name="Casino Venus"
+            coords="241,847,281,847,281,885,265,885,265,871,241,871"
+            shape="poly"
+            tag="102021" />
+        <area
+            id="@+id/area220"
+            name="Relaxation Space Raffine"
+            coords="241,846,241,812,249,812,249,827,280,827,280,847"
+            shape="poly"
+            tag="102068" />
+        <area
+            id="@+id/area215"
+            name="TOMMY HILFIGER"
+            coords="196,847,241,847,241,811,249,811,249,776,202,776,196,788"
+            shape="poly"
+            tag="102046" />
+        <area
+            id="@+id/area218"
+            name="AMO`S STYLE"
+            coords="260,776,300,743,333,770,294,803"
+            shape="poly"
+            tag="102009" />
+        <area
+            id="@+id/area216"
+            name="HILFIGER DENIM"
+            coords="201,776,260,776,300,743,216,743"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area217"
+            name="musee de peau"
+            coords="333,770,366,743,285,675,281,678,273,682,265,684,258,685,241,686,217,743,300,743,332,769"
+            shape="poly"
+            tag="102061" />
+        <area
+            id="@+id/area265"
+            name="Aires!"
+            coords="372,696,408,666,441,666,441,680,398,717"
+            shape="poly"
+            tag="102006" />
+        <area
+            id="@+id/area266"
+            name="Precieux jouet"
+            coords="372,696,408,666,392,651,353,651,337,666"
+            shape="poly"
+            tag="102058" />
+        <area
+            id="@+id/area268"
+            name="Momi &amp; Toy`s"
+            coords="392,651,442,651,441,666,408,666"
+            shape="poly"
+            tag="102086" />
+        <area
+            id="@+id/area276"
+            name="echo NEW YORK"
+            coords="295,596,299,588,299,537,337,537,337,608,304,608,294,597"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area278"
+            name="THE KISS Anniversary"
+            coords="249,579,249,537,299,537,299,588,295,597,284,589,276,585,265,582,256,580"
+            shape="poly"
+            tag="102025" />
+        <area
+            id="@+id/area288"
+            name=" DE TER NL byDazyClair"
+            coords="249,446,259,440,266,432,269,423,305,423,305,463,249,463"
+            shape="poly"
+            tag="102043" />
+        <area
+            id="@+id/area291"
+            name="il forno"
+            coords="250,354,356,354,356,408,269,408,262,397,257,392,253,390,249,387"
+            shape="poly"
+            tag="102078" />
+        <area
+            id="@+id/area292"
+            name="Cheese Cake Factory"
+            coords="249,323,356,323,356,354,250,354"
+            shape="poly"
+            tag="102081" />
+        <area
+            id="@+id/area293"
+            name="Benitora Gyozabou"
+            coords="250,276,357,276,357,323,249,323"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area295"
+            name="ChiisanaKekkonshiki"
+            coords="249,224,315,224,315,212,355,212,355,242,250,242"
+            shape="poly"
+            tag="102040" />
+        <area
+            id="@+id/area296"
+            name="Padrino del SHOZAN"
+            coords="249,224,315,224,315,211,355,211,355,145,301,145,300,163,292,185,282,201,272,211,262,218,254,222"
+            shape="poly"
+            tag="102083" />
+        
+         <area
+            id="@+id/area287"
+            name="Twelve Agenda"
+            coords="249,224,315,224,315,211,355,211,355,145,301,145,300,163,292,185,282,201,272,211,262,218,254,222"
+            shape="poly"
+            tag="102044" />
+    </map>
+    <map name="jp_2f_a" >
+        <area
+            id="@+id/area27701"
+            name="LOVE JUNKE OUTLET"
+            alt=""
+            coords="516,529,515,582,494,581,497,641,568,642,568,527"
+            shape="poly"
+            tag="102003" />
+        <area
+            id="@+id/area2771"
+            name="COMING SOON"
+            alt=""
+            coords="352,528,352,586,429,587,429,528"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area277"
+            name="COMING SOON"
+            alt=""
+            coords="431,528,431,585,492,579,513,578,513,528"
+            shape="poly"
+            tag="" />
+    </map>
+    <map name="jp_3f" >
+        <area
+            id="@+id/area373"
+            name="TANTO TANTO"
+            alt=""
+            coords="64,320,200,320,200,378,186,389,148,389,130,405,64,405"
+            shape="poly"
+            tag="102146" />
+        <area
+            id="@+id/area371"
+            name="TORAJI"
+            alt=""
+            coords="64,447,130,447,130,483,64,483"
+            shape="poly"
+            tag="102147" />
+        <area
+            id="@+id/area317"
+            name="moussy backstock"
+            alt=""
+            coords="64,528,144,529,144,600,64,600"
+            shape="poly"
+            tag="102120" />
+        <area
+            id="@+id/area314"
+            name="LIP SERVICE"
+            alt=""
+            coords="91,695,144,695,144,743,90,743"
+            shape="poly"
+            tag="102126" />
+        <area
+            id="@+id/area313"
+            name="titty and Co."
+            alt=""
+            coords="91,743,130,743,130,786,91,786"
+            shape="poly"
+            tag="102109" />
+        <area
+            id="@+id/area309"
+            name="Anne Klein New York"
+            alt=""
+            coords="91,825,131,825,131,883,91,883"
+            shape="poly"
+            tag="102089" />
+        <area
+            id="@+id/area307"
+            name="NINE WEST"
+            alt=""
+            coords="91,883,131,883,131,962,111,978,91,978"
+            shape="poly"
+            tag="102114" />
+        <area
+            id="@+id/area374"
+            name="BOTEJYU"
+            alt=""
+            coords="157,409,174,409,172,424,178,444,198,464,220,471,220,499,153,499,153,413"
+            shape="poly"
+            tag="102150" />
+        <area
+            id="@+id/area318"
+            name="unspace2"
+            alt=""
+            coords="153,499,219,499,219,563,167,564,167,512,153,512"
+            shape="poly"
+            tag="102091" />
+        <area
+            id="@+id/area316"
+            name="Roomy&apos;s OUTLET"
+            alt=""
+            coords="167,564,219,564,219,602,202,614,192,631,167,631"
+            shape="poly"
+            tag="102129" />
+        <area
+            id="@+id/area315"
+            name="unspace"
+            alt=""
+            coords="167,666,175,666,190,691,209,704,229,711,207,763,167,762"
+            shape="poly"
+            tag="102090" />
+        <area
+            id="@+id/area312"
+            name="CITIZEN OUTLET"
+            alt=""
+            coords="153,763,206,763,198,784,198,795,152,795"
+            shape="poly"
+            tag="102102" />
+        <!-- <area shape="poly" alt="" coords="154,795,198,831" id="@+id/area311" name = "Lunetterie OUTLET/Sunglass" tag = "102059"/> -->
+        <area
+            id="@+id/area310"
+            name="Lunetterie OUTLET"
+            alt=""
+            coords="153,795,198,795,198,870,153,870"
+            shape="poly"
+            tag="102134" />
+        <area
+            id="@+id/area308"
+            name="LESPACE SHOES de STOCK"
+            alt=""
+            coords="153,870,198,870,198,962,153,962"
+            shape="poly"
+            tag="102137" />
+        <area
+            id="@+id/area306"
+            name="Hunting world"
+            alt=""
+            coords="148,974,198,974,198,996,204,1002,164,1035,134,1011,134,985"
+            shape="poly"
+            tag="102116" />
+        <area
+            id="@+id/area304"
+            name="LAURENT OLIVIER"
+            alt=""
+            coords="165,1035,204,1002,230,1025,189,1056"
+            shape="poly"
+            tag="102140" />
+        <area
+            id="@+id/area302"
+            name="SHICATA"
+            alt=""
+            coords="229,1025,283,1026,283,1056,189,1056"
+            shape="poly"
+            tag="102101" />
+        <area
+            id="@+id/area325"
+            name="Auntie Rosa OUTLET"
+            alt=""
+            coords="239,713,266,713,266,797,208,797,210,786"
+            shape="poly"
+            tag="102092" />
+        <area
+            id="@+id/area324"
+            name="Little New York"
+            alt=""
+            coords="209,797,267,797,267,842,209,842"
+            shape="poly"
+            tag="102128" />
+        <area
+            id="@+id/area323"
+            name="Dr.ci:Labo"
+            alt=""
+            coords="225,856,266,856,266,924,224,924"
+            shape="poly"
+            tag="102113" />
+        <area
+            id="@+id/area322"
+            name="WEDGWOOD GROUP FACTORY SHOP"
+            alt=""
+            coords="210,925,266,925,266,963,209,963"
+            shape="poly"
+            tag="102094" />
+        <area
+            id="@+id/area321"
+            name="robe de tisse OUTLET"
+            alt=""
+            coords="209,974,316,974,316,1015,235,1015,208,992"
+            shape="poly"
+            tag="102139" />
+        <area
+            id="@+id/area326"
+            name="LAST CALL"
+            alt=""
+            coords="281,708,306,696,413,785,413,795,296,795,296,790,280,771"
+            shape="poly"
+            tag="102123" />
+        <area
+            id="@+id/area327"
+            name="goa"
+            alt=""
+            coords="296,796,413,796,413,820,295,820"
+            shape="poly"
+            tag="102098" />
+        <area
+            id="@+id/area328"
+            name="LAUNDRY&apos;S"
+            alt=""
+            coords="355,868,413,868,413,902,355,902"
+            shape="poly"
+            tag="102124" />
+        <area
+            id="@+id/area329"
+            name="Samsonite AMERICAN TOURISTER"
+            alt=""
+            coords="356,902,412,902,412,945,356,945"
+            shape="poly"
+            tag="102099" />
+        <area
+            id="@+id/area330"
+            name="DR.SCHOOL Footwear"
+            alt=""
+            coords="316,958,412,958,412,1016,316,1015"
+            shape="poly"
+            tag="102112" />
+        <area
+            id="@+id/area358"
+            name="sevens"
+            alt=""
+            coords="261,550,298,550,298,542,333,542,333,621,339,626,331,634,317,605,285,585,261,579"
+            shape="poly"
+            tag="102107" />
+        <area
+            id="@+id/area357"
+            name="URBAN RESEARCH ware house"
+            alt=""
+            coords="332,648,350,634,393,671,343,713,314,688"
+            shape="poly"
+            tag="102088" />
+        <area
+            id="@+id/area356"
+            name="heliopole"
+            alt=""
+            coords="394,671,429,701,429,742,403,763,344,713"
+            shape="poly"
+            tag="102095" />
+        <area
+            id="@+id/area355"
+            name="NOLLEY&apos;S OUTLET"
+            alt=""
+            coords="430,743,483,743,483,819,423,819,423,779,404,763"
+            shape="poly"
+            tag="102115" />
+        <area
+            id="@+id/area349"
+            name="STYLE WORKS OUTLET"
+            alt=""
+            coords="423,820,482,820,482,947,424,947"
+            shape="poly"
+            tag="102106" />
+        <area
+            id="@+id/area344"
+            name="COMPTIOR DES CONONNERS"
+            alt=""
+            coords="424,959,483,959,483,1022,424,1022"
+            shape="poly"
+            tag="102097" />
+        <area
+            id="@+id/area342"
+            name="FILA"
+            alt=""
+            coords="425,1021,483,1021,483,1042,459,1062,375,1062,375,1027,424,1027"
+            shape="poly"
+            tag="102117" />
+        <area
+            id="@+id/area376"
+            name="FOOD COURT"
+            alt=""
+            coords="267,244,363,410"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area375"
+            name="MANGROVE"
+            alt=""
+            coords="291,429,312,429,312,499,247,499,247,470,271,462"
+            shape="poly"
+            tag="102151" />
+        <area
+            id="@+id/area7"
+            name="RUBY CAFE"
+            alt=""
+            coords="435,265,477,265,477,308,435,308"
+            shape="poly"
+            tag="102155" />
+        <area
+            id="@+id/area6"
+            name="Buzen Udon - Buzen"
+            alt=""
+            coords="503,264,552,264,552,289,503,289"
+            shape="poly"
+            tag="102148" />
+        <area
+            id="@+id/area5"
+            name="yokohama teppan taikun"
+            alt=""
+            coords="504,290,552,290,552,321,503,321"
+            shape="poly"
+            tag="102154" />
+        <area
+            id="@+id/area4"
+            name="Aburidori Bali-cho"
+            alt=""
+            coords="504,322,547,322,548,351,504,351"
+            shape="poly"
+            tag="102143" />
+        <area
+            id="@+id/area3"
+            name="Shisen Hantan Menso"
+            alt=""
+            coords="504,352,546,352,546,385,503,385"
+            shape="poly"
+            tag="102153" />
+        <area
+            id="@+id/area2"
+            name="Indian curry dining Cobara-Hetta"
+            alt=""
+            coords="503,385,565,385,565,401,526,401,525,419,504,419"
+            shape="poly"
+            tag="102144" />
+        <area
+            id="@+id/area1"
+            name="66Kitchen Roppongi 6-chome Shokudou"
+            alt=""
+            coords="566,384,587,384,586,421,526,421,526,402,565,401"
+            shape="poly"
+            tag="102156" />
+        <area
+            id="@+id/area359"
+            name="George&apos;s FACTORY OUTLET"
+            alt=""
+            coords="356,542,429,542,429,636,383,636,355,613"
+            shape="poly"
+            tag="102105" />
+        <area
+            id="@+id/area360"
+            name="Sylvanian Families/MasterPiece"
+            alt=""
+            coords="430,542,493,542,493,603,429,603"
+            shape="poly"
+            tag="102103" />
+        <area
+            id="@+id/area361"
+            name="Franc franc BAZAR"
+            alt=""
+            coords="494,542,585,542,585,689,518,689,518,603,493,603"
+            shape="poly"
+            tag="102118" />
+        <!-- <area shape="poly" alt="" coords="505,732,505,779,582,780,581,732" id="@+id/area354" name = "MISS SIZTY.ENERGIE by EXTALIA" tag = ""/> -->
+        <!-- <area shape="poly" alt="" coords="505,780,505,811,584,811,583,781" id="@+id/area353" name = "salus" tag = ""/> -->
+        <area
+            id="@+id/area352"
+            name="247 LOVE OUTLET"
+            alt=""
+            coords="506,821,584,821,584,856,506,856"
+            shape="poly"
+            tag="102111" />
+        <area
+            id="@+id/area351"
+            name="DURAS"
+            alt=""
+            coords="506,857,586,857,586,894,507,894"
+            shape="poly"
+            tag="102110" />
+        <area
+            id="@+id/area348"
+            name="Levi&apos;s Outlet"
+            alt=""
+            coords="506,926,585,926,585,976,506,976"
+            shape="poly"
+            tag="102125" />
+        <area
+            id="@+id/area347"
+            name="CHAPS"
+            alt=""
+            coords="506,976,585,976,585,1013,506,1013"
+            shape="poly"
+            tag="102108" />
+        <area
+            id="@+id/area346"
+            name="INCONTRO COMPANY STORE"
+            alt=""
+            coords="506,1013,585,1013,585,1049,506,1049"
+            shape="poly"
+            tag="" />
+        <area
+            id="@+id/area343"
+            name="J.FERRY OUTLET SELECT"
+            alt=""
+            coords="506,1049,584,1049,584,1158,467,1157,467,1081"
+            shape="poly"
+            tag="102104" />
+        <area
+            id="@+id/area341"
+            name="galliano FACTORY"
+            alt=""
+            coords="351,1081,468,1082,468,1157,461,1157,434,1121,398,1097,351,1086"
+            shape="poly"
+            tag="102096" />
+        <area
+            id="@+id/area301"
+            name="MARNI"
+            alt=""
+            coords="222,1075,319,1075,319,1086,281,1094,246,1113,223,1136"
+            shape="poly"
+            tag="102121" />
+        <area
+            id="@+id/area303"
+            name="INCONTRO COMPANY STORE"
+            alt=""
+            coords="183,1075,222,1075,223,1137,218,1142,183,1142"
+            shape="poly"
+            tag="102093" />
+        <area
+            id="@+id/area305"
+            name="COMING SOON"
+            alt=""
+            coords="113,1020,183,1076,183,1143,144,1143,144,1135,112,1135"
+            shape="poly"
+            tag="" />
+    </map>
+
+</maps>
