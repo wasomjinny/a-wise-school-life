@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/clearable_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:paddingRight="30dp"
+            android:maxLines="1"
+            android:textColor="@color/color_666666"
+            android:textColorHint="@color/color_8c8c8c"
+            android:textSize="16sp"
+            android:textCursorDrawable="@drawable/surf_cursor"/>
+
+        <Button
+            android:id="@+id/clearable_button_clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="6dp"
+            android:layout_gravity="center_vertical|right"
+            android:background="@drawable/btn_write_delete" />
+    </FrameLayout>
+</FrameLayout>

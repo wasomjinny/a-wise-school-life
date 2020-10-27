@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="font_family_regular">sans-serif</string>              <!-- roboto regular-->
+    <string name="font_family_light">sans-serif-light</string>          <!-- roboto light-->
+    <string name="font_family_condensed">sans-serif-condensed</string>  <!-- roboto condensed-->
+    <string name="font_family_black">sans-serif-black</string>          <!-- roboto black-->
+    <string name="font_family_thin">sans-serif-thin</string>            <!-- roboto thin-->
+    <string name="font_family_medium">sans-serif-medium</string>        <!-- roboto medium-->
+</resources>
